@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dec369b-10fe-483d-9ea9-59a2b9d32b0d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawelManager.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grabArticlePagesManager.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grabNaviPagesManager.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grabPagesManager.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webSite.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/math.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/myFileOperation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/myThread.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/myTools.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/myURLlib.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="leiwumi.iws" />
@@ -160,6 +158,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="leiwumi0.0.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leiwumi0.0.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leiwumi0.0.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -381,7 +393,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438757446642</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add other files">
+      <created>1438757576114</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1438757576114</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -423,7 +441,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add category.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="add category.py" />
+    <MESSAGE value="add other files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add other files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
