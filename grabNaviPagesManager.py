@@ -9,14 +9,6 @@ class GrabNaviPagesManager(GrabPagesManager):
     def __init__(self, navigationPages, category, otherConfig):
         GrabPagesManager.__init__(self, navigationPages, category, otherConfig)
 
-    # def processPage(self, navigationPage):
-    #
-    #     #get urls from naviPage
-    #     self.grabArticlePagesFromPage(navigationPage)
-    #
-    #     #save the memory
-    #     navigationPage.rawContent = None
-
     def processNaviPages(self, pages):
 
         #this line is for saving the memory that sub process has occupied, because original all self.grabPages is not used in this sub process
@@ -141,8 +133,3 @@ class GrabNaviPagesManager(GrabPagesManager):
 
         return ret
 
-    #overwrite this function to realize all kinds of customing grab ways
-    # def getURLsAndTitles(self, soup):
-    #     hrefInfo = self.category.hrefInfo
-    #     [div, key, value] = hrefInfo.split('::')
-    #     return [(i.a['href'], i.a.text) for i in soup.findAll(div, attrs={key: value})]
