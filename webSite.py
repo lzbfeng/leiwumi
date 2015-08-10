@@ -127,6 +127,6 @@ class WebSite(object):
 
 if __name__ == "__main__":
 
-    webSite = WebSite("/home/lesshst/BFCrawel/36kr.ini")
+    webSite = WebSite("/home/lesshst/BFCrawel/nbweekly.ini")
     webSite.startGrab()
     webSite.showReport()
